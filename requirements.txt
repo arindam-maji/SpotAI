@@ -1,18 +1,5 @@
-# Fixed requirements for Streamlit deployment
-opencv-python-headless>=4.9.0.80
-numpy>=1.23.0
-Pillow>=9.0.0
-
-# Compatible PyTorch versions
-torch>=2.0.1
-torchvision>=0.15.2
-
-# Object detection
-ultralytics>=8.3.189
-
-# Web framework
-streamlit>=1.37.0
-
-# Optional: WebRTC support (comment out if not needed)
-# streamlit-webrtc>=0.47.0
-# av>=10.0.0
+streamlit
+opencv-python-headless
+numpy
+pillow
+# Remove opencv-python if present
