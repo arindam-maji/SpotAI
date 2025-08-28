@@ -1,5 +1,5 @@
 streamlit
-opencv-python-headless
+opencv-python
 numpy
-pillow
-# Remove opencv-python if present
+torch
+ultralytics
